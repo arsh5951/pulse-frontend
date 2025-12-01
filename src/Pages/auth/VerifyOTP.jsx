@@ -33,7 +33,7 @@ const VerifyOTP = ({type,email,expired_at}) => {
                           
                             <div className="form-group">
                                 <input
-                                    type="password"
+                                    type="number"
                                     className="form-control"
                                     placeholder="6 digit OTP"
                                     onKeyUp={(e) => setOTP(e.target.value)}
