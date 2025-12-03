@@ -4,7 +4,7 @@ const Forgotpassword = () => {
                 <div className="padding">
                     <div className="navbar">
                         <div className="pull-center">
-                            <a href="index" className="navbar-brand md">
+                            <a href="/" className="navbar-brand md">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 48 48"

@@ -8,7 +8,7 @@ const Player = () => {
                 <div className="sidebar ">
                     <div className="left navside grey dk sidebar" data-layout="column">
                         <div className="navbar no-radius">
-                            <a href="index" className="navbar-brand md">
+                            <a href="/" className="navbar-brand md">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 48 48"
