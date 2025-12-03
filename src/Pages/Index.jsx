@@ -164,7 +164,7 @@ const Index = () => {
                                 <p className="text-muted text-md m-b-lg">
                                     Listen to your favorite Artists.
                                 </p>
-                                <a href="home" className="btn circle white m-b-lg p-x-md">
+                                <a href="artist" className="btn circle white m-b-lg p-x-md">
                                     View Artists
                                 </a>
                             </div>
