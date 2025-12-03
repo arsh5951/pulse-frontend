@@ -9,16 +9,28 @@ const VerifyOTP = ({type,email,expired_at}) => {
 
     const HandleSubmit = async(e) => {
         e.preventDefault();
-        
+        try {
+           setLoading(true);
+           
   if(email == "" && otp == ""){
-    throw new Error("otp are required!");
+   throw new Error("otp are required!");
   }
 
    const res = await axios.post(" http://127.0.0.1:5000/auth/verify-otp",{
               email,
-              otp
+              otp,
+              type
           });
 
+          window.location.href="/"
+        
+       } catch (err) {
+         toast.error("OTP is invalid")
+       }
+      finally {
+            setLoading(false)
+           }
+    
 
     }
 
