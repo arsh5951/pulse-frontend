@@ -5,7 +5,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="clearfix m-b-lg">
-                            <a href="index-2" className="navbar-brand md">
+                            <a href="index" className="navbar-brand md">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 48 48"
