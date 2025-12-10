@@ -1,4 +1,3 @@
-import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Artist from "./Pages/Artist";
 import Artistdetail from "./Pages/Artistdetail";
@@ -12,7 +11,15 @@ import Rtl from "./Pages/Rtl";
 import Forgotpassword from "./Pages/auth/Forgotpassword";
 import Signin from "./Pages/auth/Signin";
 import Signup from "./Pages/auth/Signup";
-import {Toaster} from 'react-hot-toast'
+import Chart2 from "./Pages/rtl/Chart2";
+import Browse2 from "./Pages/rtl/Browse2";
+import Artist2 from "./Pages/rtl/Artist2";
+import Profile2 from "./Pages/rtl/Profile2";
+import Chart3 from "./Pages/webApp/Chart3";
+import Browse3 from "./Pages/webApp/Browse3";
+import Artist3 from "./Pages/webApp/Artist3";
+import Profile3 from "./Pages/webApp/Profile3";
+import {Toaster} from 'react-hot-toast';
 
 function App() {
 
@@ -35,6 +42,14 @@ function App() {
               <Route path="/Forgotpassword" element={<Forgotpassword />} />
               <Route path="/Signin" element={<Signin />} />
               <Route path="/Signup" element={<Signup />} />
+              <Route path="/Browse2" element={<Browse2 />} />
+              <Route path="/Chart2" element={<Chart2 />} />
+              <Route path="/Artist2" element={<Artist2 />} />
+              <Route path="/Profile2" element={<Profile2 />} />
+              <Route path="/Browse3" element={<Browse3 />} />
+              <Route path="/Chart3" element={<Chart3 />} />
+              <Route path="/Artist3" element={<Artist3 />} />
+              <Route path="/Profile3" element={<Profile3 />} />
             </Routes>
           </BrowserRouter>
         </div>
@@ -47,4 +62,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
