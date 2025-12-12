@@ -20,6 +20,7 @@ import Browse3 from "./Pages/webApp/Browse3";
 import Artist3 from "./Pages/webApp/Artist3";
 import Profile3 from "./Pages/webApp/Profile3";
 import {Toaster} from 'react-hot-toast';
+import AppLayout from "./layouts/AppLayout";
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
         <div id="content" className="app-content" role="main">
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Index />} />
+            <Route path="/" element={<AppLayout/>}>
+                <Route path="/" element={<Index />} />
               <Route path="/Home" element={<Home />} />
               <Route path="/Artist" element={<Artist />} />
               <Route path="/Artistdetail" element={<Artistdetail />} />
@@ -39,9 +41,6 @@ function App() {
               <Route path="/Player" element={<Player />} />
               <Route path="/Profile" element={<Profile />} />
               <Route path="/Rtl" element={<Rtl />} />
-              <Route path="/Forgotpassword" element={<Forgotpassword />} />
-              <Route path="/Signin" element={<Signin />} />
-              <Route path="/Signup" element={<Signup />} />
               <Route path="/Browse2" element={<Browse2 />} />
               <Route path="/Chart2" element={<Chart2 />} />
               <Route path="/Artist2" element={<Artist2 />} />
@@ -50,6 +49,12 @@ function App() {
               <Route path="/Chart3" element={<Chart3 />} />
               <Route path="/Artist3" element={<Artist3 />} />
               <Route path="/Profile3" element={<Profile3 />} />
+            </Route>
+
+                <Route path="/Forgotpassword" element={<Forgotpassword />} />
+              <Route path="/Signin" element={<Signin />} />
+              <Route path="/Signup" element={<Signup />} />
+            
             </Routes>
           </BrowserRouter>
         </div>

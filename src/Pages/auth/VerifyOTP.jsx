@@ -21,7 +21,11 @@ const VerifyOTP = ({type,email,expired_at}) => {
               otp,
               type
           });
+        
+          if(res.data.token){
+            localStorage.setItem("token", res.data.token)
 
+          }
           window.location.href="/"
         
        } catch (err) {

@@ -1,10 +1,8 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 
 const Profile = () => {
     return (
         <>
-            <Header />
             <div className="app-body" id="view">
                 <div
                     className="page-bg"
@@ -27,7 +25,7 @@ const Profile = () => {
                             <div className="col-sm">
                                 <div className="p-l-md no-padding-xs">
                                     <h1 className="page-title">
-                                        <span className="h1 _800">Rachel Platten</span>
+                                        <span className="h1 _800">Arshpreet Singh</span>
                                     </h1>
                                     <p
                                         className="item-desc text-ellipsis text-muted"
@@ -1361,7 +1359,7 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+          
         </>
     )
 }
