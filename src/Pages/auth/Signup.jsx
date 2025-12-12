@@ -3,47 +3,47 @@ import { useState } from 'react';
 import toast from 'react-hot-toast'
 const Signup = () => {
 
-    
-        const [loading,setLoading]= useState(false);
-        const [name, setName] = useState('');
-        const [email, setEmail] = useState('');
-        const [password, setPassword] = useState('');
-      //  const [otpScreen, setOtpScreen] = useState(false);
-    
-    
-        const registerHandle = async(e) => {
-            
-            e.preventDefault();
-           try {
-      setLoading(true);
-    
-      if(email == "" && password == ""){
-        throw new Error("Email and Password are required!");
-      }
-            
-            const res = await axios.post(" http://127.0.0.1:5000/auth/register",{
+
+    const [loading, setLoading] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    //  const [otpScreen, setOtpScreen] = useState(false);
+
+
+    const registerHandle = async (e) => {
+
+        e.preventDefault();
+        try {
+            setLoading(true);
+
+            if (email == "" && password == "") {
+                throw new Error("Email and Password are required!");
+            }
+
+            const res = await axios.post(" http://127.0.0.1:5000/auth/register", {
                 email,
                 password
             });
-    
-            if (res.data.status === true){
+
+            if (res.data.status === true) {
                 toast.success(res.data.message);
-                window.location.href="/signin"
-            //    setOtpScreen(true)
+                window.location.href = "/signin"
+                //    setOtpScreen(true)
             }
-    
-           }
-           catch (err){
+
+        }
+        catch (err) {
             console.log(err)
             toast.error(err?.response?.data?.message || err.message)
-    
-           }
-    
-           finally {
-            setLoading(false)
-           }
-    
+
         }
+
+        finally {
+            setLoading(false)
+        }
+
+    }
     return (
         <>
             <div className="padding">
@@ -93,8 +93,8 @@ const Signup = () => {
                             </a>
                         </div>
                         <div className="m-y text-sm">OR</div>
-                          <form name="form" onSubmit={registerHandle}>
-                             <div className="form-group">
+                        <form name="form" onSubmit={registerHandle}>
+                            <div className="form-group">
                                 <input
                                     type="text"
                                     className="form-control"
@@ -118,11 +118,11 @@ const Signup = () => {
                                     className="form-control"
                                     placeholder="password"
                                     onKeyUp={(e) => setPassword(e.target.value)}
-                                  
+
                                     required=""
                                 />
                             </div>
-                         
+
                             <button type="submit" disabled={loading} className="btn btn-lg black p-x-lg">
                                 {loading ? "Signing..." : "Sign Up"}
                             </button>

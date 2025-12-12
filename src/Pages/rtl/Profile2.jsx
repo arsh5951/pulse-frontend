@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import LeftSidebar from "../../components/LeftSidebar";
 const Profile2 = () => {
     return (
@@ -1361,7 +1360,6 @@ const Profile2 = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
                 <div className="col-2">
                     <LeftSidebar />

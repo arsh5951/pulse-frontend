@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import LeftSidebar from "../../components/LeftSidebar";
 const Browse2 = () => {
     return (
@@ -739,10 +738,9 @@ const Browse2 = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
                 <div className="col-2">
-                    <LeftSidebar/>
+                    <LeftSidebar />
                 </div>
             </div>
         </>

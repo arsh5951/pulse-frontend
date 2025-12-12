@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import LeftSidebar from "../../components/LeftSidebar";
 const Chart2 = () => {
     return (
@@ -649,10 +648,9 @@ const Chart2 = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
                 <div className="col-2">
-                    <LeftSidebar/>
+                    <LeftSidebar />
                 </div>
             </div>
         </>

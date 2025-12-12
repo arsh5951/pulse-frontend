@@ -1,10 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Artistdetail = () => {
     return (
         <>
-        <Header/>
             <div className="app-body" id="view">
                 <div className="pos-rlt">
                     <div
@@ -1501,9 +1497,8 @@ const Artistdetail = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }
 
-export default Artistdetail ;
+export default Artistdetail;

@@ -3,26 +3,26 @@ import { useEffect } from "react";
 import axios from 'axios'
 
 const Header = () => {
-    const [user,SetUser] = useState("");
-    useEffect(()=> {
+    const [user, SetUser] = useState("");
+    useEffect(() => {
         const token = localStorage.getItem("token");
-       if(token){
-          getUser(token);
-       }
-    },[])
+        if (token) {
+            getUser(token);
+        }
+    }, [])
 
 
     const getUser = async (token) => {
-        axios.defaults.headers.common['Authorization']= token;
+        axios.defaults.headers.common['Authorization'] = token;
         const res = await axios.get("http://127.0.0.1:5000/auth/getUser");
         console.log(res)
         SetUser(res.data.user)
-     
+
     }
 
     const logout = () => {
         const confirm = window.confirm("ARE YOU SURE?");
-        if(confirm){
+        if (confirm) {
             localStorage.removeItem("token");
             window.location.reload();
 
@@ -65,26 +65,26 @@ const Header = () => {
                     <ul className="nav navbar-nav pull-right">
                         {!user && (
                             <>
-                        <li className="nav-item">
-                            <a href="signup" className="nav-link">
-                                Signup
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="signin" className="nav-link">
-                                <span className="btn btn-sm rounded primary _600">Signin</span>
-                            </a>
-                        </li>
-                    </>
+                                <li className="nav-item">
+                                    <a href="signup" className="nav-link">
+                                        Signup
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="signin" className="nav-link">
+                                        <span className="btn btn-sm rounded primary _600">Signin</span>
+                                    </a>
+                                </li>
+                            </>
                         )}
                         {user && (
                             <>
-                              <li className="nav-item">
-                            <a className="nav-link" data-toggle="modal" data-target="#search-modal">
-                                <i className="material-icons">search</i>
-                            </a>
-                        </li>
-                        {/* <li className="nav-item">
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="modal" data-target="#search-modal">
+                                        <i className="material-icons">search</i>
+                                    </a>
+                                </li>
+                                {/* <li className="nav-item">
                             <a className="nav-link" href="#">
                                 <span className="hidden-xs-down btn btn-sm rounded primary _600">
                                     Upload
@@ -94,46 +94,46 @@ const Header = () => {
                                 </span>
                             </a>
                         </li> */}
-                       <li className="nav-item dropdown open">
-              <a
-                href="#"
-                className="nav-link clear"
-                data-toggle="dropdown"
-                aria-expanded="true"
-              >
-                <span className="avatar w-32">
-                  <img src="images/a3.jpg" alt="..." />
-                </span>
-              </a>
-              <div className="dropdown-menu w dropdown-menu-scale pull-right">
-                <a className="dropdown-item" href="profile#profile">
-                  <span>Profile</span>
-                </a>{" "}
-                <a className="dropdown-item" href="profile#tracks">
-                  <span>Tracks</span>
-                </a>{" "}
-                <a className="dropdown-item" href="profile#playlists">
-                  <span>Playlists</span>
-                </a>{" "}
-                <a className="dropdown-item" href="profile#likes">
-                  <span>Likes</span>
-                </a>
-                <div className="dropdown-divider" />
-                <a className="dropdown-item" href="docs">
-                  Need help?
-                </a>{" "}
-                
-                           <a className="dropdown-item"  href="#" onClick={logout}>
-                                
-                                    Logout
-                              {" "}
-                              
-                            </a>
-                      
-              </div>
-            </li>
-                          
-                        </>
+                                <li className="nav-item dropdown open">
+                                    <a
+                                        href="#"
+                                        className="nav-link clear"
+                                        data-toggle="dropdown"
+                                        aria-expanded="true"
+                                    >
+                                        <span className="avatar w-32">
+                                            <img src="images/a3.jpg" alt="..." />
+                                        </span>
+                                    </a>
+                                    <div className="dropdown-menu w dropdown-menu-scale pull-right">
+                                        <a className="dropdown-item" href="profile#profile">
+                                            <span>Profile</span>
+                                        </a>{" "}
+                                        <a className="dropdown-item" href="profile#tracks">
+                                            <span>Tracks</span>
+                                        </a>{" "}
+                                        <a className="dropdown-item" href="profile#playlists">
+                                            <span>Playlists</span>
+                                        </a>{" "}
+                                        <a className="dropdown-item" href="profile#likes">
+                                            <span>Likes</span>
+                                        </a>
+                                        <div className="dropdown-divider" />
+                                        <a className="dropdown-item" href="docs">
+                                            Need help?
+                                        </a>{" "}
+
+                                        <a className="dropdown-item" href="#" onClick={logout}>
+
+                                            Logout
+                                            {" "}
+
+                                        </a>
+
+                                    </div>
+                                </li>
+
+                            </>
                         )}
                     </ul>
                     <div

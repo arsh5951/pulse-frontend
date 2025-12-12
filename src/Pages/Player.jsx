@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import RightSidebar from "../components/RightSidebar"
 
 const Player = () => {
@@ -1456,7 +1455,6 @@ const Player = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
                 </div>
             </div>
         </>

@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import LeftSidebar from "../components/LeftSidebar";
 
 const Rtl = () => {
@@ -1418,7 +1417,6 @@ const Rtl = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
                 <div className="col-2">
                     <LeftSidebar/>

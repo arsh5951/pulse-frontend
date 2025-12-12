@@ -1,11 +1,10 @@
-import Footer from "../../components/Footer";
 import RightSidebar from "../../components/RightSidebar";
 const Profile3 = () => {
     return (
         <>
             <div className="row player-sidebar">
                 <div className="col-2">
-                    <RightSidebar/>
+                    <RightSidebar />
                 </div>
                 <div className="col-10">
                     <div className="app-body" id="view">
@@ -1364,7 +1363,6 @@ const Profile3 = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
             </div>
         </>

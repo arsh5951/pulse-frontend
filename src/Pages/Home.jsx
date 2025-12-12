@@ -1,10 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Home = () => {
     return (
         <>
-            <Header />
             <div className="app-body" id="view">
                 <div className="page-content">
                     <div className="black dk">
@@ -1449,7 +1445,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

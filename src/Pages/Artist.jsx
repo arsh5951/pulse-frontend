@@ -1,10 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Artist = () => {
     return (
         <>
-            <Header />
             <div className="app-body" id="view">
                 <div className="page-content">
                     <div className="row-col">
@@ -433,7 +429,6 @@ const Artist = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

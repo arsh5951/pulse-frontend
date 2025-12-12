@@ -1,5 +1,5 @@
 const LeftSidebar = () => {
-    
+
     return (
         <>
             <div className="sidebar ">
@@ -148,4 +148,4 @@ const LeftSidebar = () => {
     )
 }
 
-export default LeftSidebar ; 
+export default LeftSidebar; 
