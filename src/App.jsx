@@ -4,10 +4,11 @@ import Artistdetail from "./Pages/Artistdetail";
 import Browse from "./Pages/Browse";
 import Chart from "./Pages/Chart";
 import Home from "./Pages/Home";
-import Index from "./Pages/Index";
+//import Index from "./Pages/Index";
 import Player from "./Pages/Player";
 import Profile from "./Pages/Profile";
 import Rtl from "./Pages/Rtl";
+import Trackdetail from "./Pages/Trackdetail";
 import Forgotpassword from "./Pages/auth/Forgotpassword";
 import Signin from "./Pages/auth/Signin";
 import Signup from "./Pages/auth/Signup";
@@ -32,29 +33,30 @@ function App() {
           <BrowserRouter>
             <Routes>
 
-              <Route path="/" element={<Index />} />
               <Route path="/Forgotpassword" element={<Forgotpassword />} />
               <Route path="/Signin" element={<Signin />} />
               <Route path="/Signup" element={<Signup />} />
+              <Route path="/Browse2" element={<Browse2 />} />
+              <Route path="/Chart2" element={<Chart2 />} />
+              <Route path="/Artist2" element={<Artist2 />} />
+              <Route path="/Profile2" element={<Profile2 />} />
+              <Route path="/Browse3" element={<Browse3 />} />
+              <Route path="/Chart3" element={<Chart3 />} />
+              <Route path="/Artist3" element={<Artist3 />} />
+              <Route path="/Profile3" element={<Profile3 />} />
+              <Route path="/Player" element={<Player />} />
+              <Route path="/Rtl" element={<Rtl />} />
 
               <Route path="/" element={<AppLayout />}>
-
+                {/* <Route path="/" element={<Index />} /> */}
+                <Route path="/" element={<Home />} />
                 <Route path="/Home" element={<Home />} />
                 <Route path="/Artist" element={<Artist />} />
                 <Route path="/Artistdetail" element={<Artistdetail />} />
                 <Route path="/Browse" element={<Browse />} />
                 <Route path="/Chart" element={<Chart />} />
-                <Route path="/Player" element={<Player />} />
                 <Route path="/Profile" element={<Profile />} />
-                <Route path="/Rtl" element={<Rtl />} />
-                <Route path="/Browse2" element={<Browse2 />} />
-                <Route path="/Chart2" element={<Chart2 />} />
-                <Route path="/Artist2" element={<Artist2 />} />
-                <Route path="/Profile2" element={<Profile2 />} />
-                <Route path="/Browse3" element={<Browse3 />} />
-                <Route path="/Chart3" element={<Chart3 />} />
-                <Route path="/Artist3" element={<Artist3 />} />
-                <Route path="/Profile3" element={<Profile3 />} />
+                <Route path="/Trackdetail" element={<Trackdetail />} />
 
               </Route>
 

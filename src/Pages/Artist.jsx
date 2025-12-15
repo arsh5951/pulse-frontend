@@ -46,7 +46,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">OlsJesse Russell</a>
+                                                        <a href="artistdetail">Sidhu Moose Wala</a>
                                                         <div className="text-sm text-muted">23 songs</div>
                                                     </div>
                                                 </div>
@@ -63,7 +63,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Richard Carr</a>
+                                                        <a href="artistdetail">Karan Aujla</a>
                                                         <div className="text-sm text-muted">6 songs</div>
                                                     </div>
                                                 </div>
@@ -80,7 +80,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Judy Woods</a>
+                                                        <a href="artistdetail">Dulla</a>
                                                         <div className="text-sm text-muted">23 songs</div>
                                                     </div>
                                                 </div>
@@ -97,7 +97,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Jean Schneider</a>
+                                                        <a href="artistdetail">Hustinder</a>
                                                         <div className="text-sm text-muted">8 songs</div>
                                                     </div>
                                                 </div>
@@ -114,7 +114,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Melissa Garza</a>
+                                                        <a href="artistdetail">Arjan Dhillon</a>
                                                         <div className="text-sm text-muted">20 songs</div>
                                                     </div>
                                                 </div>
@@ -131,7 +131,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Douglas Torres</a>
+                                                        <a href="artistdetail">Navaan Sandhu</a>
                                                         <div className="text-sm text-muted">20 songs</div>
                                                     </div>
                                                 </div>
@@ -148,7 +148,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Crystal Guerrero</a>
+                                                        <a href="artistdetail">Prem Dhillon</a>
                                                         <div className="text-sm text-muted">12 songs</div>
                                                     </div>
                                                 </div>
@@ -165,7 +165,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">James Garcia</a>
+                                                        <a href="artistdetail">Harkirat Sangha</a>
                                                         <div className="text-sm text-muted">9 songs</div>
                                                     </div>
                                                 </div>
@@ -182,7 +182,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Sara King</a>
+                                                        <a href="artistdetail">Nijjar</a>
                                                         <div className="text-sm text-muted">14 songs</div>
                                                     </div>
                                                 </div>
@@ -199,7 +199,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Joe Holmes</a>
+                                                        <a href="artistdetail">Shubh</a>
                                                         <div className="text-sm text-muted">24 songs</div>
                                                     </div>
                                                 </div>
@@ -216,7 +216,7 @@ const Artist = () => {
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Judith Garcia</a>
+                                                        <a href="artistdetail">Gulab Sidhu</a>
                                                         <div className="text-sm text-muted">13 songs</div>
                                                     </div>
                                                 </div>
@@ -228,12 +228,12 @@ const Artist = () => {
                                                     <a
                                                         href="artistdetail"
                                                         className="item-media-content"
-                                                        style={{ backgroundImage: 'url("images/b0.jpg")' }}
+                                                        style={{ backgroundImage: 'url("images/b0.jpeg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info text-center">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="artistdetail">Jeremy Scott</a>
+                                                        <a href="artistdetail">Jassa Dhillon</a>
                                                         <div className="text-sm text-muted">14 songs</div>
                                                     </div>
                                                 </div>

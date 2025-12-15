@@ -25,16 +25,16 @@ const Profile = () => {
                             <div className="col-sm">
                                 <div className="p-l-md no-padding-xs">
                                     <h1 className="page-title">
-                                        <span className="h1 _800">Arshpreet Singh</span>
+                                        <span className="h1 _800">Sidhu Moose Wala</span>
                                     </h1>
                                     <p
                                         className="item-desc text-ellipsis text-muted"
                                         data-ui-toggle-class="text-ellipsis"
                                     >
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quamquam
-                                        tu hanc copiosiorem etiam soles dicere. Nihil illinc huc pervenit.
-                                        Verum hoc idem saepe faciamus. Quid ad utilitatem tantae pecuniae?
-                                        Utram tandem linguam nescio? Sed hoc sane concedamus.
+                                        Sidhu Moose Wala was a hugely popular Punjabi singer, rapper, and politician who began his career writing songs before gaining fame with his track "So High".  <br />
+                                        He was known for blending folk music with modern beats to create songs that spoke to Punjabi identity and issues.  <br />
+                                        After a successful music career that included collaborations with artists like Burna Boy and a political run with the Indian National Congress,  <br />
+                                        he was tragically assassinated in a drive-by shooting in May 2022 at the age of 28.  <br />
                                     </p>
                                     <div className="item-action m-b">
                                         <a href="#" className="btn btn-sm rounded primary">
@@ -45,8 +45,8 @@ const Profile = () => {
                                         </a>
                                     </div>
                                     <div className="block clearfix m-b">
-                                        <span>9</span> <span className="text-muted">Albums</span>,{" "}
-                                        <span>23</span> <span className="text-muted">Tracks</span>
+                                        <span>2</span> <span className="text-muted">Studio Albums</span>,{" "}
+                                        <span>140</span> <span className="text-muted">Tracks</span>
                                     </div>
                                 </div>
                             </div>
@@ -108,6 +108,8 @@ const Profile = () => {
                                                     data-id="item-7"
                                                     data-src="http://api.soundcloud.com/tracks/245566366/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+
+                                                   {/* Moosetape  */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -129,7 +131,7 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Reflection (Deluxe)</a>
+                                                            <a href="track.detail">Moosetape</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
@@ -139,16 +141,15 @@ const Profile = () => {
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Pop
+                                                                    Punjabi Pop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                05.05.2016
+                                                                15.05.2021
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Quid ad utilitatem tantae pecuniae? Utram tandem linguam
-                                                            nescio? Sed hoc sane concedamus.
+                                                            Moosetape is the second and final studio album by Indian singer, rapper and songwriter Sidhu Moose Wala, released independently on 15 May 2021.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -172,6 +173,7 @@ const Profile = () => {
                                                     data-id="item-11"
                                                     data-src="http://api.soundcloud.com/tracks/218060449/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* Snitches gets Stiches */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -193,26 +195,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Spring</a>
+                                                            <a href="track.detail">Snitches Get Stitches</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Pablo Nouvelle
+                                                                Sidhu Moose Wala
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Indie
+                                                                    Hip-Hop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.03.2016
+                                                                09.05.2020
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Saepe faciamus. Quid ad utilitatem tantae pecuniae?
-                                                            Utram tandem linguam nescio? Sed hoc sane concedamus.
+                                                            Snitches Get Stitches is the debut and solo mixtape by singer-rapper Sidhu Moose Wala. The mixtape is a compilation of songs that were released on SoundCloud or leaked on the internet, as well as new songs. It was self-released on 9 May 2020 without prior announcement.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -236,6 +237,7 @@ const Profile = () => {
                                                     data-id="item-3"
                                                     data-src="http://api.soundcloud.com/tracks/79031167/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* PBX 1 */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -258,27 +260,26 @@ const Profile = () => {
                                                         </div>
                                                         <div className="item-title text-ellipsis">
                                                             <a href="track.detail">
-                                                                I Wanna Be In the Cavalry
+                                                                PBX 1
                                                             </a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Jeremy Scott
+                                                                Sidhu Moose Wala
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    DJ
+                                                                    Gangsta Rap
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.04.2016
+                                                                18.10.2018
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Tantae pecuniae? Utram tandem linguam nescio? Sed hoc
-                                                            sane concedamus.
+                                                            PBX 1 is the debut studio album by Indian rapper Sidhu Moose Wala, released on 18 October 2018, by T-Series. The album was produced by Byg Byrd, Intense, Snappy, and Harj Nagra.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -302,6 +303,7 @@ const Profile = () => {
                                                     data-id="item-1"
                                                     data-src="http://api.soundcloud.com/tracks/269944843/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* No Name */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -323,27 +325,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Pull Up</a>
+                                                            <a href="track.detail">No Name</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Summerella
+                                                                Sidhu Moose Wala
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Blue
+                                                                    Gangsta Rap
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                30.05.2016
+                                                                25.08.2022
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                            Quamquam tu hanc copiosiorem etiam soles dicere. Nihil
-                                                            illinc huc pervenit.
+                                                            No Name is the first extended play by Indian singer-rapper Sidhu Moose Wala, self-released on 25 April 2022 without prior announcement. Moose Wala also served as executive producer, while the tracks were produced by SOE, Snappy, JayB & Mxrci.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -367,6 +367,7 @@ const Profile = () => {
                                                     data-id="item-9"
                                                     data-src="http://api.soundcloud.com/tracks/264094434/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* Moose Print */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -388,25 +389,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">All I Need</a>
+                                                            <a href="track.detail">Moose Print</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Pablo Nouvelle
+                                                                Sidhu Moose Wala
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Jazz
+                                                                    Hardcore
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                02.04.2016
+                                                                11.06.2025
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Tandem linguam nescio? Sed hoc sane concedamus.
+                                                            Moose Print is a posthumous 3-track EP by Sidhu Moose Wala, released in June 2025, featuring songs like "0008," "Neal," and "Take Notes," showcasing his signature style with producers like The Kidd and Jenny Johal
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -430,6 +431,7 @@ const Profile = () => {
                                                     data-id="item-6"
                                                     data-src="http://api.soundcloud.com/tracks/236107824/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* A for Arjan */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -451,26 +453,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Body on me</a>
+                                                            <a href="track.detail">A for Arjan</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Rita Ora
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Nature
+                                                                    Hip-Hop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.04.2016
+                                                                25.11.22
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Tantae pecuniae? Utram tandem linguam nescio? Sed hoc
-                                                            sane concedamus.
+                                                            The album A for Arjan by Punjabi singer-lyricist Arjan Dhillon is a full-length Punjabi music album, released in November 2022, that explores love and relationships through a mix of musical styles including bhangra, pop, rock, and hip-hop
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -494,6 +495,7 @@ const Profile = () => {
                                                     data-id="item-4"
                                                     data-src="http://api.soundcloud.com/tracks/230791292/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* A for Arjan 2 */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -515,26 +517,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">What A Time To Be Alive</a>
+                                                            <a href="track.detail">A for Arjan 2</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Judith Garcia
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Electro
+                                                                    Heartbreak
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                04.05.2016
+                                                                25.08.2025
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Verum hoc idem saepe faciamus inguam nescio? Sed hoc
-                                                            sane concedamus.
+                                                            Arjan Dhillon's A for Arjan 2, released August 2025, is a 18-song Punjabi album exploring love, heartbreak, and relationships from the guy's perspective, following the first album's theme, featuring his own compositions, and includes hits like "Ki Kariye" and "He Is Mine" with a mix of sounds and deeper emotions.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -558,6 +559,7 @@ const Profile = () => {
                                                     data-id="item-12"
                                                     data-src="http://api.soundcloud.com/tracks/174495152/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* Jalwa */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -579,26 +581,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Happy ending</a>
+                                                            <a href="track.detail">Jalwa</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Postiljonen
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Latin
+                                                                    Punjabi Pop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.06.2016
+                                                                17.10.2022
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Utilitatem tantae pecuniae? Utram tandem linguam nescio?
-                                                            Sed hoc sane concedamus.
+                                                            "Jalwa" is the popular second solo album by Punjabi artist Arjan Dhillon, released in 2022, showcasing his versatile style with electronic-pop, folk, and heartfelt tracks like "25-25," "It's My Time," and "Munde Pindan De," featuring collaborations with producers like Preet Hundal and Desi Crew, solidifying his status as a major breakout star with a massive fanbase.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -622,6 +623,7 @@ const Profile = () => {
                                                     data-id="item-8"
                                                     data-src="http://api.soundcloud.com/tracks/236288744/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* The Revolution */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -643,26 +645,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Simple Place To Be</a>
+                                                            <a href="track.detail">The Revolution</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                RYD
+                                                               Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Radio
+                                                                    Hip-Hop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.04.2016
+                                                                19.02.2025
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Ad utilitatem tantae pecuniae? Utram tandem linguam
-                                                            nescio? Sed hoc sane concedamus.
+                                                            The Revolution is a popular 2025 Punjabi EP by singer-lyricist Arjan Dhillon, featuring 6 tracks like "Gears," "Scheme," and "Narazgi," with music primarily by Mxrci, showcasing Dhillon's strong lyrical skills but drawing some listener critiques for beat repetition, calling for more producer variety.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -684,8 +685,9 @@ const Profile = () => {
                                                 <div
                                                     className="item r"
                                                     data-id="item-5"
-                                                    data-src="http://streaming.radionomy.com/JamendoLounge"
+                                                    data-src="http://streaming.Hip-Hopnomy.com/JamendoLounge"
                                                 >
+                                                    {/* Saroor */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -707,27 +709,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Live Radio</a>
+                                                            <a href="track.detail">Saroor</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Radionomy
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Electro
+                                                                    Punjabi folk
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                09.05.2016
+                                                                29.07.2023
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Verum hoc idem saepe faciamus. Quid ad utilitatem tantae
-                                                            pecuniae? Utram tandem linguam nescio? Sed hoc sane
-                                                            concedamus.
+                                                            "Saroor" is a popular 2023 Punjabi album by singer-lyricist Arjan Dhillon and music producer MXRCI, featuring 15 tracks like "Ilzaam," "Dunia," and "Range," showcasing Dhillon's distinct style, with tracks exploring themes of love and Punjabi culture
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -751,6 +751,7 @@ const Profile = () => {
                                                     data-id="item-2"
                                                     data-src="http://api.soundcloud.com/tracks/259445397/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* Patander */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -772,27 +773,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Fireworks</a>
+                                                            <a href="track.detail">Patander</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Kygo
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Jazz
+                                                                    Hip-Hop
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                02.05.2016
+                                                                11.11.2024
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Hidem saepe faciamus. Quid ad utilitatem tantae
-                                                            pecuniae? Utram tandem linguam nescio? Sed hoc sane
-                                                            concedamus.
+                                                            Patandar is a highly successful 2024 Punjabi album by singer-songwriter Arjan Dhillon, featuring 16 tracks produced by Mxrci, blending English and Punjabi, showcasing Dhillon's distinct style and cementing his place in the music industry.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -816,6 +815,7 @@ const Profile = () => {
                                                     data-id="item-10"
                                                     data-src="http://api.soundcloud.com/tracks/237514750/stream?client_id=a10d44d431ad52868f1bce6d36f5234c"
                                                 >
+                                                    {/* Manifest */}
                                                     <div className="item-media">
                                                         <a
                                                             href="track.detail"
@@ -837,26 +837,25 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">The Open Road</a>
+                                                            <a href="track.detail">Manifest</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
-                                                                Postiljonen
+                                                                Arjan Dhillon
                                                             </a>
                                                         </div>
                                                         <div className="item-meta text-sm text-muted">
                                                             <span className="item-meta-category">
                                                                 <a href="browse" className="label">
-                                                                    Soul
+                                                                    Punjabi folk
                                                                 </a>
                                                             </span>{" "}
                                                             <span className="item-meta-date text-xs">
-                                                                02.04.2016
+                                                                05.04.2024
                                                             </span>
                                                         </div>
                                                         <div className="item-except visible-list text-sm text-muted h-2x m-t-sm">
-                                                            Litatem tantae pecuniae? Utram tandem linguam nescio?
-                                                            Sed hoc sane concedamus.
+                                                            "Manifest" by Arjan Dhillon refers to his prolific Punjabi EP released in April 2024, featuring six tracks like "Opinion," "Fly," and the title track "Manifest," showcasing his diverse, experimental sound with production from Mxrci, highlighting his fast-paced output and blending styles from catchy pop to deep bass.
                                                         </div>
                                                         <div className="item-action visible-list m-t-sm">
                                                             <a href="#" className="btn btn-xs white">
@@ -875,9 +874,6 @@ const Profile = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-sm white rounded">
-                                            Show More
-                                        </a>
                                     </div>
                                     <div className="tab-pane" id="playlist">
                                         <div className="row m-b">
@@ -908,7 +904,7 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Simple Place To Be</a>
+                                                            <a href="track.detail">The Revolution</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
@@ -952,7 +948,7 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Happy ending</a>
+                                                            <a href="track.detail">Jalwa</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
@@ -1088,7 +1084,7 @@ const Profile = () => {
                                                             <div className="dropdown-menu pull-right black lt" />
                                                         </div>
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Happy ending</a>
+                                                            <a href="track.detail">Jalwa</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis hide">
                                                             <a href="artist.detail" className="text-muted">
@@ -1132,9 +1128,9 @@ const Profile = () => {
                                                 <div className="col-sm-9">
                                                     <select className="form-control c-select">
                                                         <option>Blue</option>
-                                                        <option>Electro</option>
+                                                        <option>Punjabi folk</option>
                                                         <option>Pop</option>
-                                                        <option>Soul</option>
+                                                        <option>Punjabi folk</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -1191,7 +1187,7 @@ const Profile = () => {
                                             </div>
                                             <div className="item-info">
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">Simple Place To Be</a>
+                                                    <a href="track.detail">The Revolution</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
                                                     <a href="artist.detail" className="text-muted">
@@ -1205,7 +1201,7 @@ const Profile = () => {
                                         <div
                                             className="item r"
                                             data-id="item-5"
-                                            data-src="http://streaming.radionomy.com/JamendoLounge"
+                                            data-src="http://streaming.Hip-Hopnomy.com/JamendoLounge"
                                         >
                                             <div className="item-media">
                                                 <a
@@ -1216,11 +1212,11 @@ const Profile = () => {
                                             </div>
                                             <div className="item-info">
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">Live Radio</a>
+                                                    <a href="track.detail">Saroor</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
                                                     <a href="artist.detail" className="text-muted">
-                                                        Radionomy
+                                                        Hip-Hopnomy
                                                     </a>
                                                 </div>
                                             </div>
@@ -1241,7 +1237,7 @@ const Profile = () => {
                                             </div>
                                             <div className="item-info">
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">Fireworks</a>
+                                                    <a href="track.detail">Patander</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
                                                     <a href="artist.detail" className="text-muted">
