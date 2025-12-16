@@ -5,6 +5,7 @@ import Browse from "./Pages/Browse";
 import Chart from "./Pages/Chart";
 import Home from "./Pages/Home";
 //import Index from "./Pages/Index";
+import Docs from "./Pages/Docs";
 import Player from "./Pages/Player";
 import Profile from "./Pages/Profile";
 import Rtl from "./Pages/Rtl";
@@ -46,6 +47,7 @@ function App() {
               <Route path="/Profile3" element={<Profile3 />} />
               <Route path="/Player" element={<Player />} />
               <Route path="/Rtl" element={<Rtl />} />
+              <Route path="/Docs" element={<Docs />} />
 
               <Route path="/" element={<AppLayout />}>
                 {/* <Route path="/" element={<Index />} /> */}

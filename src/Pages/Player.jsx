@@ -34,7 +34,7 @@ const Player = () => {
                                         >
                                             <div className="item-media primary">
                                                 <a
-                                                    href="track.detail"
+                                                    href="trackdetail"
                                                     className="item-media-content"
                                                     style={{ backgroundImage: 'url("images/c1.jpg")' }}
                                                 />
@@ -53,10 +53,10 @@ const Player = () => {
                                                     <div className="dropdown-menu pull-right black lt" />
                                                 </div>
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">New Album from Nouvelle</a>
+                                                    <a href="trackdetail">New Album from Nouvelle</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
-                                                    <a href="artist.detail" className="text-muted">
+                                                    <a href="artistdetail" className="text-muted">
                                                         Nouvelle
                                                     </a>
                                                 </div>
@@ -69,7 +69,7 @@ const Player = () => {
                                         >
                                             <div className="item-media info">
                                                 <a
-                                                    href="track.detail"
+                                                    href="trackdetail"
                                                     className="item-media-content"
                                                     style={{ backgroundImage: 'url("images/c2.jpg")' }}
                                                 />
@@ -88,10 +88,10 @@ const Player = () => {
                                                     <div className="dropdown-menu pull-right black lt" />
                                                 </div>
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">Blind Me</a>
+                                                    <a href="trackdetail">Blind Me</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
-                                                    <a href="artist.detail" className="text-muted">
+                                                    <a href="artistdetail" className="text-muted">
                                                         Fifty
                                                     </a>
                                                 </div>
@@ -104,7 +104,7 @@ const Player = () => {
                                         >
                                             <div className="item-media accent">
                                                 <a
-                                                    href="track.detail"
+                                                    href="trackdetail"
                                                     className="item-media-content"
                                                     style={{ backgroundImage: 'url("images/c3.jpg")' }}
                                                 />
@@ -123,10 +123,10 @@ const Player = () => {
                                                     <div className="dropdown-menu pull-right black lt" />
                                                 </div>
                                                 <div className="item-title text-ellipsis">
-                                                    <a href="track.detail">New Track from Pablo Nouvelle</a>
+                                                    <a href="trackdetail">New Track from Pablo Nouvelle</a>
                                                 </div>
                                                 <div className="item-author text-sm text-ellipsis">
-                                                    <a href="artist.detail" className="text-muted">
+                                                    <a href="artistdetail" className="text-muted">
                                                         Pablo Nouvelle
                                                     </a>
                                                 </div>
@@ -142,7 +142,7 @@ const Player = () => {
                                     >
                                         <div className="item-media">
                                             <a
-                                                href="track.detail"
+                                                href="trackdetail"
                                                 className="item-media-content"
                                                 style={{ backgroundImage: 'url("images/b0.jpg")' }}
                                             />
@@ -161,10 +161,10 @@ const Player = () => {
                                                 <div className="dropdown-menu pull-right black lt" />
                                             </div>
                                             <div className="item-title text-ellipsis">
-                                                <a href="track.detail">Pull Up</a>
+                                                <a href="trackdetail">Pull Up</a>
                                             </div>
                                             <div className="item-author text-sm text-ellipsis">
-                                                <a href="artist.detail" className="text-muted">
+                                                <a href="artistdetail" className="text-muted">
                                                     Summerella
                                                 </a>
                                             </div>
@@ -179,7 +179,7 @@ const Player = () => {
                                     >
                                         <div className="item-media">
                                             <a
-                                                href="track.detail"
+                                                href="trackdetail"
                                                 className="item-media-content"
                                                 style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                             />
@@ -198,10 +198,10 @@ const Player = () => {
                                                 <div className="dropdown-menu pull-right black lt" />
                                             </div>
                                             <div className="item-title text-ellipsis">
-                                                <a href="track.detail">Fireworks</a>
+                                                <a href="trackdetail">Fireworks</a>
                                             </div>
                                             <div className="item-author text-sm text-ellipsis">
-                                                <a href="artist.detail" className="text-muted">
+                                                <a href="artistdetail" className="text-muted">
                                                     Kygo
                                                 </a>
                                             </div>
@@ -216,7 +216,7 @@ const Player = () => {
                                     >
                                         <div className="item-media">
                                             <a
-                                                href="track.detail"
+                                                href="trackdetail"
                                                 className="item-media-content"
                                                 style={{ backgroundImage: 'url("images/b2.jpg")' }}
                                             />
@@ -235,10 +235,10 @@ const Player = () => {
                                                 <div className="dropdown-menu pull-right black lt" />
                                             </div>
                                             <div className="item-title text-ellipsis">
-                                                <a href="track.detail">I Wanna Be In the Cavalry</a>
+                                                <a href="trackdetail">I Wanna Be In the Cavalry</a>
                                             </div>
                                             <div className="item-author text-sm text-ellipsis">
-                                                <a href="artist.detail" className="text-muted">
+                                                <a href="artistdetail" className="text-muted">
                                                     Jeremy Scott
                                                 </a>
                                             </div>
@@ -253,7 +253,7 @@ const Player = () => {
                                     >
                                         <div className="item-media">
                                             <a
-                                                href="track.detail"
+                                                href="trackdetail"
                                                 className="item-media-content"
                                                 style={{ backgroundImage: 'url("images/b3.jpg")' }}
                                             />
@@ -272,10 +272,10 @@ const Player = () => {
                                                 <div className="dropdown-menu pull-right black lt" />
                                             </div>
                                             <div className="item-title text-ellipsis">
-                                                <a href="track.detail">What A Time To Be Alive</a>
+                                                <a href="trackdetail">What A Time To Be Alive</a>
                                             </div>
                                             <div className="item-author text-sm text-ellipsis">
-                                                <a href="artist.detail" className="text-muted">
+                                                <a href="artistdetail" className="text-muted">
                                                     Judith Garcia
                                                 </a>
                                             </div>
@@ -312,7 +312,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                                     />
@@ -331,10 +331,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Fireworks</a>
+                                                        <a href="trackdetail">Fireworks</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Kygo
                                                         </a>
                                                     </div>
@@ -349,7 +349,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b5.jpg")' }}
                                                     />
@@ -368,10 +368,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Body on me</a>
+                                                        <a href="trackdetail">Body on me</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Rita Ora
                                                         </a>
                                                     </div>
@@ -386,7 +386,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b2.jpg")' }}
                                                     />
@@ -405,10 +405,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">I Wanna Be In the Cavalry</a>
+                                                        <a href="trackdetail">I Wanna Be In the Cavalry</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Jeremy Scott
                                                         </a>
                                                     </div>
@@ -423,7 +423,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b7.jpg")' }}
                                                     />
@@ -442,10 +442,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Simple Place To Be</a>
+                                                        <a href="trackdetail">Simple Place To Be</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             RYD
                                                         </a>
                                                     </div>
@@ -460,7 +460,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b8.jpg")' }}
                                                     />
@@ -479,10 +479,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">All I Need</a>
+                                                        <a href="trackdetail">All I Need</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Pablo Nouvelle
                                                         </a>
                                                     </div>
@@ -497,7 +497,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b9.jpg")' }}
                                                     />
@@ -516,10 +516,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">The Open Road</a>
+                                                        <a href="trackdetail">The Open Road</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Postiljonen
                                                         </a>
                                                     </div>
@@ -534,7 +534,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b10.jpg")' }}
                                                     />
@@ -553,10 +553,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Spring</a>
+                                                        <a href="trackdetail">Spring</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Pablo Nouvelle
                                                         </a>
                                                     </div>
@@ -571,7 +571,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media item-media-4by3">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b6.jpg")' }}
                                                     />
@@ -590,10 +590,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Reflection (Deluxe)</a>
+                                                        <a href="trackdetail">Reflection (Deluxe)</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Fifth Harmony
                                                         </a>
                                                     </div>
@@ -611,7 +611,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b2.jpg")' }}
                                                     />
@@ -630,10 +630,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">I Wanna Be In the Cavalry</a>
+                                                        <a href="trackdetail">I Wanna Be In the Cavalry</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Jeremy Scott
                                                         </a>
                                                     </div>
@@ -648,7 +648,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b9.jpg")' }}
                                                     />
@@ -667,10 +667,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">The Open Road</a>
+                                                        <a href="trackdetail">The Open Road</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Postiljonen
                                                         </a>
                                                     </div>
@@ -685,7 +685,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b5.jpg")' }}
                                                     />
@@ -704,10 +704,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Body on me</a>
+                                                        <a href="trackdetail">Body on me</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Rita Ora
                                                         </a>
                                                     </div>
@@ -722,7 +722,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b11.jpg")' }}
                                                     />
@@ -741,10 +741,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Happy ending</a>
+                                                        <a href="trackdetail">Happy ending</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Postiljonen
                                                         </a>
                                                     </div>
@@ -759,7 +759,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b0.jpg")' }}
                                                     />
@@ -778,10 +778,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Pull Up</a>
+                                                        <a href="trackdetail">Pull Up</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Summerella
                                                         </a>
                                                     </div>
@@ -796,7 +796,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                                     />
@@ -815,10 +815,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Fireworks</a>
+                                                        <a href="trackdetail">Fireworks</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Kygo
                                                         </a>
                                                     </div>
@@ -833,7 +833,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b10.jpg")' }}
                                                     />
@@ -852,10 +852,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Spring</a>
+                                                        <a href="trackdetail">Spring</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Pablo Nouvelle
                                                         </a>
                                                     </div>
@@ -870,7 +870,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b4.jpg")' }}
                                                     />
@@ -889,10 +889,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Live Radio</a>
+                                                        <a href="trackdetail">Live Radio</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Radionomy
                                                         </a>
                                                     </div>
@@ -910,7 +910,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b2.jpg")' }}
                                                     />
@@ -929,10 +929,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">I Wanna Be In the Cavalry</a>
+                                                        <a href="trackdetail">I Wanna Be In the Cavalry</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Jeremy Scott
                                                         </a>
                                                     </div>
@@ -947,7 +947,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b10.jpg")' }}
                                                     />
@@ -966,10 +966,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Spring</a>
+                                                        <a href="trackdetail">Spring</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Pablo Nouvelle
                                                         </a>
                                                     </div>
@@ -984,7 +984,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b0.jpg")' }}
                                                     />
@@ -1003,10 +1003,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Pull Up</a>
+                                                        <a href="trackdetail">Pull Up</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Summerella
                                                         </a>
                                                     </div>
@@ -1021,7 +1021,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b3.jpg")' }}
                                                     />
@@ -1040,10 +1040,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">What A Time To Be Alive</a>
+                                                        <a href="trackdetail">What A Time To Be Alive</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Judith Garcia
                                                         </a>
                                                     </div>
@@ -1058,7 +1058,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b9.jpg")' }}
                                                     />
@@ -1077,10 +1077,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">The Open Road</a>
+                                                        <a href="trackdetail">The Open Road</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Postiljonen
                                                         </a>
                                                     </div>
@@ -1095,7 +1095,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b11.jpg")' }}
                                                     />
@@ -1114,10 +1114,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Happy ending</a>
+                                                        <a href="trackdetail">Happy ending</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Postiljonen
                                                         </a>
                                                     </div>
@@ -1132,7 +1132,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b8.jpg")' }}
                                                     />
@@ -1151,10 +1151,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">All I Need</a>
+                                                        <a href="trackdetail">All I Need</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Pablo Nouvelle
                                                         </a>
                                                     </div>
@@ -1169,7 +1169,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b5.jpg")' }}
                                                     />
@@ -1188,10 +1188,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Body on me</a>
+                                                        <a href="trackdetail">Body on me</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Rita Ora
                                                         </a>
                                                     </div>
@@ -1206,7 +1206,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b4.jpg")' }}
                                                     />
@@ -1225,10 +1225,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Live Radio</a>
+                                                        <a href="trackdetail">Live Radio</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Radionomy
                                                         </a>
                                                     </div>
@@ -1243,7 +1243,7 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                                     />
@@ -1262,10 +1262,10 @@ const Player = () => {
                                                         <div className="dropdown-menu pull-right black lt" />
                                                     </div>
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Fireworks</a>
+                                                        <a href="trackdetail">Fireworks</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Kygo
                                                         </a>
                                                     </div>
@@ -1291,17 +1291,17 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b2.jpg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">I Wanna Be In the Cavalry</a>
+                                                        <a href="trackdetail">I Wanna Be In the Cavalry</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Jeremy Scott
                                                         </a>
                                                     </div>
@@ -1316,17 +1316,17 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Fireworks</a>
+                                                        <a href="trackdetail">Fireworks</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Kygo
                                                         </a>
                                                     </div>
@@ -1341,17 +1341,17 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b0.jpg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Pull Up</a>
+                                                        <a href="trackdetail">Pull Up</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Summerella
                                                         </a>
                                                     </div>
@@ -1366,17 +1366,17 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b6.jpg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Reflection (Deluxe)</a>
+                                                        <a href="trackdetail">Reflection (Deluxe)</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Fifth Harmony
                                                         </a>
                                                     </div>
@@ -1391,17 +1391,17 @@ const Player = () => {
                                             >
                                                 <div className="item-media">
                                                     <a
-                                                        href="track.detail"
+                                                        href="trackdetail"
                                                         className="item-media-content"
                                                         style={{ backgroundImage: 'url("images/b5.jpg")' }}
                                                     />
                                                 </div>
                                                 <div className="item-info">
                                                     <div className="item-title text-ellipsis">
-                                                        <a href="track.detail">Body on me</a>
+                                                        <a href="trackdetail">Body on me</a>
                                                     </div>
                                                     <div className="item-author text-sm text-ellipsis">
-                                                        <a href="artist.detail" className="text-muted">
+                                                        <a href="artistdetail" className="text-muted">
                                                             Rita Ora
                                                         </a>
                                                     </div>

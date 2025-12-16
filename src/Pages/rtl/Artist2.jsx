@@ -269,14 +269,14 @@ const Artist2 = () => {
                                                 >
                                                     <div className="item-media">
                                                         <a
-                                                            href="track.detail"
+                                                            href="trackdetail"
                                                             className="item-media-content"
                                                             style={{ backgroundImage: 'url("images/b10.jpg")' }}
                                                         />
                                                     </div>
                                                     <div className="item-info">
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Spring</a>
+                                                            <a href="trackdetail">Spring</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis">
                                                             <a href="artistdetail" className="text-muted">
@@ -294,14 +294,14 @@ const Artist2 = () => {
                                                 >
                                                     <div className="item-media">
                                                         <a
-                                                            href="track.detail"
+                                                            href="trackdetail"
                                                             className="item-media-content"
                                                             style={{ backgroundImage: 'url("images/b6.jpg")' }}
                                                         />
                                                     </div>
                                                     <div className="item-info">
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Reflection (Deluxe)</a>
+                                                            <a href="trackdetail">Reflection (Deluxe)</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis">
                                                             <a href="artistdetail" className="text-muted">
@@ -319,14 +319,14 @@ const Artist2 = () => {
                                                 >
                                                     <div className="item-media">
                                                         <a
-                                                            href="track.detail"
+                                                            href="trackdetail"
                                                             className="item-media-content"
                                                             style={{ backgroundImage: 'url("images/b1.jpg")' }}
                                                         />
                                                     </div>
                                                     <div className="item-info">
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Fireworks</a>
+                                                            <a href="trackdetail">Fireworks</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis">
                                                             <a href="artistdetail" className="text-muted">
@@ -344,14 +344,14 @@ const Artist2 = () => {
                                                 >
                                                     <div className="item-media">
                                                         <a
-                                                            href="track.detail"
+                                                            href="trackdetail"
                                                             className="item-media-content"
                                                             style={{ backgroundImage: 'url("images/b0.jpg")' }}
                                                         />
                                                     </div>
                                                     <div className="item-info">
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">Pull Up</a>
+                                                            <a href="trackdetail">Pull Up</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis">
                                                             <a href="artistdetail" className="text-muted">
@@ -369,14 +369,14 @@ const Artist2 = () => {
                                                 >
                                                     <div className="item-media">
                                                         <a
-                                                            href="track.detail"
+                                                            href="trackdetail"
                                                             className="item-media-content"
                                                             style={{ backgroundImage: 'url("images/b9.jpg")' }}
                                                         />
                                                     </div>
                                                     <div className="item-info">
                                                         <div className="item-title text-ellipsis">
-                                                            <a href="track.detail">The Open Road</a>
+                                                            <a href="trackdetail">The Open Road</a>
                                                         </div>
                                                         <div className="item-author text-sm text-ellipsis">
                                                             <a href="artistdetail" className="text-muted">
